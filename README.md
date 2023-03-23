@@ -38,7 +38,7 @@ of the highest layer neurons.
 The following shows the receptive fields of neurons in the layers of the hierarchy: each square represents the region of sensory space that activates the neuron. [A] EMNIST Digits [B] EMNIST Letters.
 
 <p align="center">
-  <img src="https://github.com/silviapoletti/Deep-Belief-Networks-Internal-representation-and-Adversarial-Attacks/blob/b0f8096eeb6d0372ba7e3410bb26b5567373eb2d/report/Receptive_fields.jpg" width="1000cm"/>
+  <img src="https://github.com/silviapoletti/Deep-Belief-Networks-Internal-representation-and-Adversarial-Attacks/blob/b0f8096eeb6d0372ba7e3410bb26b5567373eb2d/report/Receptive_fields.jpg" width="1000"/>
 </p>
 
 This is consistent with what the next figure shows: internal
