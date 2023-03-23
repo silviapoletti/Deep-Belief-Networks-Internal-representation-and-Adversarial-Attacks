@@ -47,7 +47,7 @@ a scatterplot that becomes less blurred and more
 clustered as going up in the hierarchy.
 
 <p align="center">
-  <img src="https://github.com/silviapoletti/Deep-Belief-Networks-Internal-representation-and-Adversarial-Attacks/blob/b0f8096eeb6d0372ba7e3410bb26b5567373eb2d/report/t-DistributedStochasticNeighborEmbedding.jpg" width="1000"/>
+  <img src="https://github.com/silviapoletti/Deep-Belief-Networks-Internal-representation-and-Adversarial-Attacks/blob/b0f8096eeb6d0372ba7e3410bb26b5567373eb2d/report/t-DistributedStochasticNeighborEmbedding.jpg" width="10000"/>
 </p>
 
 The plots are generated using t-Distributed Stochastic Neighbor Embedding: dimensionality reduction (from 784 to 2) by minimizing the divergence between the pairwise similarity distributions of the input and of the corresponding low-dimensional points in the embedding. [A] EMNIST Digits [B] EMNIST Letters.
