@@ -65,7 +65,7 @@ show that digits 8-3-5 and 7-4-9 share
 some visual features and their clusters are closeby. According to [M. Grissinger - "Misidentification of alphanumeric symbols plays a role in errors" (2009)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5614409/) the same numbers are also commonly confused by humans.
 
 <p align="center">
-  <img src="https://github.com/silviapoletti/Deep-Belief-Networks-Internal-representation-and-Adversarial-Attacks/blob/b0f8096eeb6d0372ba7e3410bb26b5567373eb2d/report/tree.jpg" width="70%"/>
+  <img src="https://github.com/silviapoletti/Deep-Belief-Networks-Internal-representation-and-Adversarial-Attacks/blob/b0f8096eeb6d0372ba7e3410bb26b5567373eb2d/report/tree.jpg" width="80%"/>
 </p>
 
 Dendogram on the left considered 500 sample. The scatterplot on the right hilights 7 clusters obtained by recursively merging the pair of clusters that minimally increases a given linkage distance in the dendogram.
