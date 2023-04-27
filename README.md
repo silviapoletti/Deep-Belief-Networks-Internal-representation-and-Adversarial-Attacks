@@ -38,7 +38,7 @@ of the highest layer neurons.
 The following shows the receptive fields of neurons in the layers of the hierarchy: each square represents the region of sensory space that activates the neuron. [A] EMNIST Digits [B] EMNIST Letters.
 
 <p align="center">
-  <img src="https://github.com/silviapoletti/Deep-Belief-Networks-Internal-representation-and-Adversarial-Attacks/blob/b0f8096eeb6d0372ba7e3410bb26b5567373eb2d/report/Receptive_fields.jpg" width="80%"/>
+  <img src="https://github.com/silviapoletti/Deep-Belief-Networks-Internal-representation-and-Adversarial-Attacks/blob/b0f8096eeb6d0372ba7e3410bb26b5567373eb2d/report/Receptive_fields.jpg" width="70%"/>
 </p>
 
 This is consistent with what the next figure shows: internal
@@ -47,7 +47,7 @@ a scatterplot that becomes less blurred and more
 clustered as going up in the hierarchy.
 
 <p align="center">
-  <img src="https://github.com/silviapoletti/Deep-Belief-Networks-Internal-representation-and-Adversarial-Attacks/blob/b0f8096eeb6d0372ba7e3410bb26b5567373eb2d/report/t-DistributedStochasticNeighborEmbedding.jpg" width="80%"/>
+  <img src="https://github.com/silviapoletti/Deep-Belief-Networks-Internal-representation-and-Adversarial-Attacks/blob/b0f8096eeb6d0372ba7e3410bb26b5567373eb2d/report/t-DistributedStochasticNeighborEmbedding.jpg" width="70%"/>
 </p>
 
 The plots are generated using t-Distributed Stochastic Neighbor Embedding: dimensionality reduction (from 784 to 2) by minimizing the divergence between the pairwise similarity distributions of the input and of the corresponding low-dimensional points in the embedding. [A] EMNIST Digits [B] EMNIST Letters.
@@ -55,7 +55,7 @@ The plots are generated using t-Distributed Stochastic Neighbor Embedding: dimen
 In the next figure, notice how similar images tend to be grouped together in the scatterplot:
 
 <p align="center">
-  <img src="https://github.com/silviapoletti/Deep-Belief-Networks-Internal-representation-and-Adversarial-Attacks/blob/b0f8096eeb6d0372ba7e3410bb26b5567373eb2d/report/image_similarity.jpg"/>
+  <img src="https://github.com/silviapoletti/Deep-Belief-Networks-Internal-representation-and-Adversarial-Attacks/blob/b0f8096eeb6d0372ba7e3410bb26b5567373eb2d/report/image_similarity.jpg" width="70%"/>
 </p>
 
 Indeed, some digits that are near in the scatterplots have been reported in the panels in the same row. A,B and C refer to raw images, D and E refer to DBN reconstructions at third layer. [A] At raw level some clusters of 5s, indicated with green circles and reported in [B], are clearly separated and [C] there’s a naive association of shapes. [D] At the third level of the hierarchy there’s a more complex feature representation, in fact the previous clusters of 5s are grouped togheter and [E] digits with different labels are associated only if there exists a strong similarity of shapes.
@@ -65,7 +65,7 @@ show that digits 8-3-5 and 7-4-9 share
 some visual features and their clusters are closeby. According to [M. Grissinger - "Misidentification of alphanumeric symbols plays a role in errors" (2009)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5614409/) the same numbers are also commonly confused by humans.
 
 <p align="center">
-  <img src="https://github.com/silviapoletti/Deep-Belief-Networks-Internal-representation-and-Adversarial-Attacks/blob/b0f8096eeb6d0372ba7e3410bb26b5567373eb2d/report/tree.jpg"/>
+  <img src="https://github.com/silviapoletti/Deep-Belief-Networks-Internal-representation-and-Adversarial-Attacks/blob/b0f8096eeb6d0372ba7e3410bb26b5567373eb2d/report/tree.jpg" width="70%"/>
 </p>
 
 Dendogram on the left considered 500 sample. The scatterplot on the right hilights 7 clusters obtained by recursively merging the pair of clusters that minimally increases a given linkage distance in the dendogram.
