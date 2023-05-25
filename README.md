@@ -58,7 +58,7 @@ In the next figure, notice how similar images tend to be grouped together in the
   <img src="https://github.com/silviapoletti/Deep-Belief-Networks-Internal-representation-and-Adversarial-Attacks/blob/b0f8096eeb6d0372ba7e3410bb26b5567373eb2d/report/image_similarity.jpg" width="70%"/>
 </p>
 
-Indeed, some digits that are near in the scatterplots have been reported in the panels in the same row. A,B and C refer to raw images, D and E refer to DBN reconstructions at third layer. [A] At raw level some clusters of 5s, indicated with green circles and reported in [B], are clearly separated and [C] there’s a naive association of shapes. [D] At the third level of the hierarchy there’s a more complex feature representation, in fact the previous clusters of 5s are grouped togheter and [E] digits with different labels are associated only if there exists a strong similarity of shapes.
+Indeed, some digits that are near in the scatterplots have been reported in the panels in the same row. A,B and C refer to raw image clustering, D and E refer to clustering on the DBN reconstructions at third layer. [A] At raw level some clusters of 5s, indicated with green circles and reported in [B], are clearly separated and [C] there’s a naive association of shapes. [D] At the third level of the hierarchy there’s a more complex feature representation, in fact the previous clusters of 5s are grouped togheter and [E] digits with different labels are associated only if there exists a strong similarity of shapes.
 
 The following dendogram and scatterplot
 show that digits 8-3-5 and 7-4-9 share
