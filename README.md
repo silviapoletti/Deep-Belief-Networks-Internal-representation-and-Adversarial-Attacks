@@ -43,7 +43,7 @@ The following shows the receptive fields of neurons in the layers of the hierarc
 
 This is consistent with what the next figure shows: internal
 feature representation of the data is visualized with
-a scatterplot that becomes less blurred and more
+a scatterplot that becomes less chaotic and more
 clustered as going up in the hierarchy.
 
 <p align="center">
